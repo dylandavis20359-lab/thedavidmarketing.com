@@ -152,6 +152,8 @@ p { margin: 0 0 1em; }
 .note-label { font: 600 .74rem/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
 .about-note p { font: 650 1.42rem/1.4 var(--serif); margin: 0; color: var(--ink); }
 .about-copy p { font-size: 1.1rem; color: var(--ink-2); max-width: 50ch; }
+.about-signature { font-size: 1rem; color: var(--ink-2); border-left: 3px solid var(--accent); padding-left: 16px; }
+.about-signature strong { color: var(--ink); font-family: var(--serif); font-weight: 650; }
 
 /* FAQ */
 .faq-wrap { display: grid; grid-template-columns: .8fr 1.2fr; gap: 64px; }
@@ -173,6 +175,7 @@ p { margin: 0 0 1em; }
 .contact-links span { color: var(--muted); font-size: .95rem; }
 .contact-price { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 22px 0 0; font-size: .96rem; color: var(--ink-2); }
 .contact-price strong { color: var(--ink); }
+.contact-note { margin: 16px 0 0; font-size: .93rem; color: var(--muted); }
 .lead-form { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 30px; }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 18px; margin-bottom: 22px; }
 .form-grid .span-2 { grid-column: 1 / -1; }
@@ -182,13 +185,14 @@ p { margin: 0 0 1em; }
 .lead-form textarea { resize: vertical; }
 .lead-form input:focus-visible, .lead-form select:focus-visible, .lead-form textarea:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; border-color: transparent; }
 .lead-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
-.form-fine { margin: 12px 0 0; font-size: .85rem; color: var(--muted); text-align: center; }
+.reply-time { margin: 14px 0 0; font-size: .88rem; font-weight: 600; color: var(--accent); text-align: center; }
+.form-fine { margin: 6px 0 0; font-size: .85rem; color: var(--muted); text-align: center; }
 
 /* Footer */
 .site-footer { padding: 56px 0 32px; border-top: 1px solid var(--line); }
 .footer-inner { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
 .footer-inner p { color: var(--muted); max-width: 40ch; margin-top: 10px; }
-.footer-links { display: flex; gap: 22px; align-items: flex-start; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 12px 22px; align-items: flex-start; }
 .footer-links a { text-decoration: none; font-weight: 600; }
 .footer-links a:hover { color: var(--accent); }
 .footer-copy { text-align: center; color: var(--muted); font-size: .85rem; margin: 36px 0 0; }
